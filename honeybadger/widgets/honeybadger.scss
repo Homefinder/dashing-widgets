@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #CA4430;
+
+$title-color:       rgba(255, 255, 255, 0.8);
+$moreinfo-color:    rgba(255, 255, 255, 0.8);
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-honeybadger {
+	background-color:  $background-color;
+	background-image: url("/assets/hb.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	h1, .title { 
+    color: $title-color;
+  }
+
+	ul {
+		margin-left: 50px;
+		margin-top: 30px;
+		list-style-type: none;
+
+		li {
+			margin: 5px;
+			text-align: left;
+		}
+	}	
+
+	.updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .fault_location {
+  	font-size: 12px;
+  }
+
+  .occurrence_count {
+  	color: #FA89A4;
+  }
+}

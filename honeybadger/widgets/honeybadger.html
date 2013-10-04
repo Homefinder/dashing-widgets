@@ -1,0 +1,12 @@
+<h1>Honeybadger</h1>
+<h3 class="title" data-bind="title"></h3>
+
+<ul>
+  <li data-foreach-item="errors">
+  	<span class="occurrence_count">(<span class="value" data-bind="item.notices_count"></span>)</span>
+    <span class="label" data-bind="item.klass"></span>  
+    <span class="fault_location"> in <span class="value" data-bind="item.component"></span>#<span class="value" data-bind="item.action"></span></span>    
+  </li>
+</ul>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
