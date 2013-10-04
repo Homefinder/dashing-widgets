@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #667FAD;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);;
+$moreinfo-color:    rgba(255, 255, 255, 0.7);;
+
+// ----------------------------------------------------------------------------
+// Widget-codeclimate styles
+// ----------------------------------------------------------------------------
+.widget-codeclimate { 
+
+  background-color: $background-color;
+  background-image: url("/assets/codeclimate.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  .title { 
+    color: $title-color;
+  }
+
+  .value {
+    margin-top: 50px;
+    color: $value-color;
+  }
+
+  .change-rate {
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+}
