@@ -1,0 +1,48 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #8DD15A;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);;
+$moreinfo-color:    rgba(255, 255, 255, 0.7);;
+
+// ----------------------------------------------------------------------------
+// Widget-heroku styles
+// ----------------------------------------------------------------------------
+.widget-heroku { 
+
+  background-image: url('/assets/traffic_light_green.png');
+  background-color: $background-color;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  .heroku-info {
+    margin-top: -170px;
+  }
+
+  .title { 
+    color: $title-color;
+  }
+
+  .value {
+    margin-top: 50px;
+    color: $value-color;
+  }
+
+  .change-rate {
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+}
