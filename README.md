@@ -5,6 +5,6 @@ A collection of widgets for use with Shopify's Dashing framework. https://github
 
 Here you'll find widgets for use with:
 * Heroku
-* Mandrill
+* [Mandrill](https://gist.github.com/dgehrett/6828656)
 * Code Climate
 * Honeybadger
