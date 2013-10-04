@@ -1,0 +1,41 @@
+<h1 class="title" data-bind="title"></h1>
+
+<table>
+	<tr>
+		<th>Stat</th>
+		<th>Total</th>
+		<th>Today</th>
+		<th>Last 7 days</th>
+		<th>Last 30 days</th>
+	</tr>
+	<tr>
+		<td><strong>sent</strong></td>
+		<td data-bind='data.sent'></td>
+		<td data-bind='data.stats.today.sent'></td>
+		<td data-bind='data.stats.last_7_days.sent'></td>
+		<td data-bind='data.stats.last_30_days.sent'></td>
+	</tr>
+	<tr>
+		<td><strong>deliverability</strong></td>
+		<td data-bind='data.deliverability'></td>
+		<td data-bind='data.stats.today.deliverability'></td>
+		<td data-bind='data.stats.last_7_days.deliverability'></td>
+		<td data-bind='data.stats.last_30_days.deliverability'></td>
+	</tr>
+	<tr>
+		<td><strong>opens</strong></td>
+		<td data-bind='data.open_pct'></td>
+		<td data-bind='data.stats.today.open_pct'></td>
+		<td data-bind='data.stats.last_7_days.open_pct'></td>
+		<td data-bind='data.stats.last_30_days.open_pct'></td>
+	</tr>
+	<tr>
+		<td><strong>clicks</strong></td>
+		<td data-bind='data.click_pct'></td>
+		<td data-bind='data.stats.today.click_pct'></td>
+		<td data-bind='data.stats.last_7_days.click_pct'></td>
+		<td data-bind='data.stats.last_30_days.click_pct'></td>
+	</tr>
+
+</table>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
